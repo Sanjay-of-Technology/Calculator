@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    font-family: sans-serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator
+{
+    background-color: #a49a9a1c;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: inset -5px -5px 12px #76827b,
+                inset  5px 5px 12px rgb(129, 143, 132);
+    display: grid;
+    grid-template-columns: repeat(4, 70px);            
+}
+input{
+    grid-column: span 4;
+    height: 100px;
+    width: 250px;
+    background-color: #cebfc92f;
+    box-shadow: inset -5px -5px 12px #615e5ee7,
+                inset 5px 5px 12px rgba(101, 93, 93, 0.803);
+    border: none;
+    border-radius: 30px;
+    color: rgb(79, 78, 78);
+    padding: 10px;
+    font-size: 40px;
+    text-align: right;
+    margin: auto;
+    margin-top: 15px;  
+    margin-bottom: 30px;
+}
+button
+{
+    height: 40px;
+    width: 50px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #636b65d4,
+                inset    5px 5px 12px rgba(84, 87, 86, 0.719);
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 15px;          
+}
+.Equal{
+    width: 115px;
+    font-size: large;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #585454bb,
+                inset 5px 5px 12px rgba(79, 76, 76, 0.763);
+}
+
+.dotbutton{
+    font-size: 25px;
+}
+
+.percentagebutton{
+    font-size: 17px;
+}
+
+.slashbutton{
+    font-size: 17px;
+}
+
+.multiplebutton{
+    font-size: small;
+}
+
+.subbutton{
+    font-size: 20px;
+}
+
+.addbutton{
+    font-size: 17px;
+}
