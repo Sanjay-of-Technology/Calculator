@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fafafa;
+    background: white;
     font-family: sans-serif;
     outline: none;
 }
@@ -14,7 +14,7 @@
 }
 .calculator
 {
-    background-color: #a49a9a1c;
+    background-color: #e8d0d01c;
     padding: 25px;
     border-radius: 30px;
     box-shadow: inset -5px -5px 12px #76827b,
@@ -26,9 +26,9 @@ input{
     grid-column: span 4;
     height: 100px;
     width: 250px;
-    background-color: #cebfc92f;
-    box-shadow: inset -5px -5px 12px #615e5ee7,
-                inset 5px 5px 12px rgba(101, 93, 93, 0.803);
+    background-color: #e6dfe42f;
+    box-shadow: inset -5px -5px 12px #4c4b4be7,
+                inset 5px 5px 12px #4b4a4ae7;
     border: none;
     border-radius: 30px;
     color: rgb(79, 78, 78);
@@ -44,8 +44,8 @@ button
     height: 40px;
     width: 50px;
     background-color: #ecf0f3;
-    box-shadow: inset -5px -5px 12px #636b65d4,
-                inset    5px 5px 12px rgba(84, 87, 86, 0.719);
+    box-shadow: inset -5px -5px 12px #7c7f7dd4,
+                inset    5px 5px 12px rgba(117, 119, 118, 0.719);
     border: none;
     border-radius: 20px;
     margin: 10px;
