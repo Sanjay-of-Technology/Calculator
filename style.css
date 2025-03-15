@@ -17,8 +17,8 @@
     background-color: #e8d0d01c;
     padding: 25px;
     border-radius: 30px;
-    box-shadow: inset -5px -5px 12px #76827b,
-                inset  5px 5px 12px rgb(129, 143, 132);
+    box-shadow: inset -5px -5px 12px #2f2d2d,
+                inset  5px 5px 12px rgb(57, 58, 57);
     display: grid;
     grid-template-columns: repeat(4, 70px);            
 }
@@ -27,8 +27,8 @@ input{
     height: 100px;
     width: 250px;
     background-color: #e6dfe42f;
-    box-shadow: inset -5px -5px 12px #4c4b4be7,
-                inset 5px 5px 12px #4b4a4ae7;
+    box-shadow: inset -5px -5px 12px #777676e7,
+                inset 5px 5px 12px #797878e7;
     border: none;
     border-radius: 30px;
     color: rgb(79, 78, 78);
